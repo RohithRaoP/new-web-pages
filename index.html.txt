@@ -7,7 +7,7 @@
 <body>
 
 <header>
-<h1>Pet Fish Paradise</h1>
+<h6>Pet Fish Paradise</h6>
 <p>Buy Beautiful Aquarium Fish Online</p>
 </header>
 
@@ -39,4 +39,5 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
