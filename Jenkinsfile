@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     triggers {
-        githubPush()
+// polls the scm every 1 minute
+        pollscm('h/1 * * * *')
     }
 
     stages {
@@ -15,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo "New change detected. Starting build..."
+                echo "checked for changes if any happped  Builded it "
                 sh 'ls -la'
                 echo "Build completed successfully!"
             }
