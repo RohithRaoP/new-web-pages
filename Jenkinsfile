@@ -3,7 +3,7 @@ pipeline {
 
     triggers {
 // polls the scm every 1 minute
-        pollscm('h/1 * * * *')
+        pollSCM('h/1 * * * *')
     }
 
     stages {
