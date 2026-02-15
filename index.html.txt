@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pet Fish Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Pet Fish Paradise</h1>
+<p>Buy Beautiful Aquarium Fish Online</p>
+</header>
+
+<section class="products">
+
+<div class="product">
+<img src="images/product1.jpg" alt="Goldfish">
+<h3>Goldfish</h3>
+<p>$10</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/product2.jpg" alt="Betta Fish">
+<h3>Betta Fish</h3>
+<p>$15</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/product3.jpg" alt="Guppy">
+<h3>Guppy Fish</h3>
+<p>$8</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
