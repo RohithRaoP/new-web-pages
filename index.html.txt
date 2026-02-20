@@ -22,7 +22,7 @@
 
 <div class="product">
 <img src="images/product2.jpg" alt="Betta Fish">
-<h3>Betta Fish</h3>
+<h6>Betta Fish</h6>
 <p>$15</p>
 <button onclick="addToCart()">Add to Cart</button>
 </div>
@@ -39,6 +39,7 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
